@@ -7,7 +7,7 @@ from utils.styles import inject_styles
 
 st.set_page_config(
     page_title="Movate AI Engineer Prep App",
-    page_icon="🎓",
+    page_icon="M",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -29,6 +29,7 @@ pages = [
     st.Page("pages/10_AI_Workflows.py", title="AI Workflows", icon="🔁"),
     st.Page("pages/11_Interview_Prep.py", title="Interview Prep", icon="🎯"),
     st.Page("pages/12_Resources.py", title="Resources", icon="📚"),
+    st.Page("pages/13_5_Day_Timetable.py", title="5-Day Timetable", icon="🗓️"),
 ]
 
 pg = st.navigation(pages, position="sidebar")
